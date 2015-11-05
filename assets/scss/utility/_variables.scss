@@ -1,0 +1,54 @@
+
+// Breakpoints
+
+$screen-xs: 	29rem;
+$screen-sm: 	35rem;
+$screen-md: 	42rem;
+$screen-lg: 	50rem;
+
+
+// Colors
+
+$blue: cornflowerblue;
+$brown: saddlebrown;
+$light-green: honeydew;
+
+$color-accent-dark: $brown;
+$color-accent-med: $blue;
+$color-accent-light: $light-green;
+
+
+// Sizes
+
+$size-base: 	1.1rem;
+
+$size-h1: 		$size-base*2.4;
+$size-h2: 		$size-base*2;
+$size-h3: 		$size-base*1.6;
+$size-h4: 		$size-base*1.4;
+// ...goes through h6
+$size-sml: 		$size-base*0.85;
+
+
+// Z-index
+
+$z-bot: 	0;
+$z-mid: 	2;
+$z-top: 	3;
+
+// Typography
+
+$sans-serif: 	'brandon-grotesque', Helvetica, sans-serif;
+$serif: 		'PT Serif';
+
+$font-heading: 		$serif;
+$font-body: 		$sans-serif;
+
+$font-heading-fallback: 'Gill Sans', serif;
+
+
+
+
+
+
+

@@ -1,0 +1,98 @@
+Searching 118 files for "servoffr"
+
+/Users/lehenry/Sites/cogs/wp-content/themes/cogtheme/README.md:
+   26  ## Working in the Theme
+   27  
+   28: There is an example of a custom post type called "servoffrs". You can create your own at [generatewp.com](http://generatewp.com) and add that array to `lib/custom-types.php`.
+   29  
+   30  Custom Fields can be customized from the Custom Fields section in the Dashboard menu. 
+
+/Users/lehenry/Sites/cogs/wp-content/themes/cogtheme/acf-json/group_56130ab1f0b02.json:
+    1  {
+    2      "key": "group_56130ab1f0b02",
+    3:     "title": "Service Offer Details",
+    4      "fields": [
+    5          {
+    .
+   40              "key": "field_561c3f4103e97",
+   41              "label": "Gallery",
+   42:             "name": "servoffr_gallery",
+   43              "type": "gallery",
+   44              "instructions": "",
+   ..
+   68                  "param": "post_type",
+   69                  "operator": "==",
+   70:                 "value": "servoffr"
+   71              }
+   72          ]
+
+/Users/lehenry/Sites/cogs/wp-content/themes/cogtheme/lib/custom-types.php:
+   10  
+   11  $labels = array(
+   12: 	'name'                => _x( 'servoffrs', 'Post Type General Name', 'ctl' ),
+   13: 	'singular_name'       => _x( 'servoffr', 'Post Type Singular Name', 'ctl' ),
+   14: 	'menu_name'           => __( 'servoffrs', 'ctl' ),
+   15: 	'name_admin_bar'      => __( 'servoffr', 'ctl' ),
+   16: 	'parent_item_colon'   => __( 'Parent servoffr:', 'ctl' ),
+   17: 	'all_items'           => __( 'All servoffrs', 'ctl' ),
+   18: 	'add_new_item'        => __( 'Add New servoffr', 'ctl' ),
+   19  	'add_new'             => __( 'Add New', 'ctl' ),
+   20: 	'new_item'            => __( 'New Service Offer', 'ctl' ),
+   21: 	'edit_item'           => __( 'Edit Service Offer', 'ctl' ),
+   22: 	'update_item'         => __( 'Update Service Offer', 'ctl' ),
+   23: 	'view_item'           => __( 'View Service', 'ctl' ),
+   24: 	'search_items'        => __( 'Search servoffr', 'ctl' ),
+   25  	'not_found'           => __( 'Not found', 'ctl' ),
+   26  	'not_found_in_trash'  => __( 'Not found in Trash', 'ctl' ),
+   27  );
+   28  $args = array(
+   29: 	'label'               => __( 'servoffr', 'ctl' ),
+   30: 	'description'         => __( 'servoffr recipes.', 'ctl' ),
+   31  	'labels'              => $labels,
+   32  	'supports'            => array( 'title', 'excerpt', 'thumbnail', 'revisions', ),
+   ..
+   46  	'capability_type'     => 'page',
+   47  );
+   48: register_post_type( 'servoffr', $args );
+   49  
+   50  
+
+/Users/lehenry/Sites/cogs/wp-content/themes/cogtheme/lib/taxonomies.php:
+   10  
+   11  	$labels = array(
+   12: 		'name'                       => _x( 'Event Types', 'Taxonomy General Name', 'servoffrs' ),
+   13: 		'singular_name'              => _x( 'Event Type', 'Taxonomy Singular Name', 'servoffrs' ),
+   14: 		'menu_name'                  => __( 'Event Types', 'servoffrs' ),
+   15: 		'all_items'                  => __( 'All Items', 'servoffrs' ),
+   16: 		'parent_item'                => __( 'Parent Item', 'servoffrs' ),
+   17: 		'parent_item_colon'          => __( 'Parent Item:', 'servoffrs' ),
+   18: 		'new_item_name'              => __( 'New Item Name', 'servoffrs' ),
+   19: 		'add_new_item'               => __( 'Add New Item', 'servoffrs' ),
+   20: 		'edit_item'                  => __( 'Edit Item', 'servoffrs' ),
+   21: 		'update_item'                => __( 'Update Item', 'servoffrs' ),
+   22: 		'view_item'                  => __( 'View Item', 'servoffrs' ),
+   23: 		'separate_items_with_commas' => __( 'Separate items with commas', 'servoffrs' ),
+   24: 		'add_or_remove_items'        => __( 'Add or remove items', 'servoffrs' ),
+   25: 		'choose_from_most_used'      => __( 'Choose from the most used', 'servoffrs' ),
+   26: 		'popular_items'              => __( 'Popular Items', 'servoffrs' ),
+   27: 		'search_items'               => __( 'Search Items', 'servoffrs' ),
+   28: 		'not_found'                  => __( 'Not Found', 'servoffrs' ),
+   29  	);
+   30  	$rewrite = array(
+
+/Users/lehenry/Sites/cogs/wp-content/themes/cogtheme/views/page-contact.twig:
+   32  					{% endif %}
+   33  
+   34: 					<h3>Our Featured servoffrs</h3>
+   35  
+   36: 					{# This loop of servoffrs (a custom post type) is passed to this template through a query in page.php. We assigned the name "servoffrs" to the array instead of "post" so as not to conflict with the data coming from the page to this template. #}
+   37: 					{% for servoffr in servoffrs %}
+   38: 						{# Show the servoffr custom type's title. I know the data is called "title" by looking at either the Timber docs (https://github.com/jarednova/timber/wiki/TimberPost#properties) or running a {{dump(post)}} to see the data I have access to. #}
+   39: 						{# Note that you can use servoffr.title (like line 7) or servoffr.post_title. They return the same thing. #}
+   40: 						<h4>{{servoffr.post_title}}</h4>
+   41  						{# Access the textarea field called "history". #}
+   42: 						<p>{{servoffr.history}}</p>
+   43  					{% endfor %}
+   44  
+
+46 matches across 5 files

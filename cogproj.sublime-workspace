@@ -1,0 +1,217 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"install package",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation'"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/lehenry/Sites/cogs/wp-content/themes/cogtheme",
+		"/Users/lehenry/Sites/cogs/wp-content/themes/cogtheme/assets",
+		"/Users/lehenry/Sites/cogs/wp-content/themes/cogtheme/assets/img",
+		"/Users/lehenry/Sites/cogs/wp-content/themes/cogtheme/assets/scss",
+		"/Users/lehenry/Sites/cogs/wp-content/themes/cogtheme/assets/scss/partials",
+		"/Users/lehenry/Sites/cogs/wp-content/themes/cogtheme/assets/scss/utility",
+		"/Users/lehenry/Sites/cogs/wp-content/themes/cogtheme/views"
+	],
+	"file_history":
+	[
+		"/Users/lehenry/Sites/cogs/wp-content/themes/cogtheme/README.md",
+		"/Users/lehenry/Sites/cogs/wp-content/themes/cogtheme/acf-json/group_56130ab1f0b02.json",
+		"/Users/lehenry/Sites/cogs/wp-content/themes/cogtheme/lib/custom-types.php",
+		"/Users/lehenry/Sites/cogs/wp-content/themes/cogtheme/lib/taxonomies.php",
+		"/Users/lehenry/Sites/cogs/wp-content/themes/cogtheme/views/page-contact.twig",
+		"/Users/lehenry/Sites/cogs/wp-content/themes/cogtheme/Find Results-Cocktail",
+		"/Users/lehenry/Sites/cogs/wp-content/themes/cogtheme/views/single-cocktail.twig",
+		"/Users/lehenry/Sites/cogs/wp-content/themes/timber-starter-lara/lib/custom-types.php",
+		"/Users/lehenry/Sites/cogs/wp-content/themes/timber-starter-lara/views/single-cocktail.twig",
+		"/Users/lehenry/Sites/cogs/wp-content/themes/cogtheme/assets/scss/main.scss",
+		"/Users/lehenry/_lib_Code/SSH Keygen/Leslie-TM-SSH-Keygen-Output.txt",
+		"/Users/lehenry/Sites/cogs/wp-config.php",
+		"/Applications/MAMP/conf/apache/extra/httpd-vhosts.conf",
+		"/Users/lehenry/Google Drive/Verticals Collective/EmailNews4_Theme.html",
+		"/Users/lehenry/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/Users/lehenry/Library/Application Support/Sublime Text 3/Packages/Emmet/Default (OSX).sublime-keymap",
+		"/Applications/MAMP/conf/apache/httpd.conf",
+		"/Applications/MAMP/logs/apache_error.log",
+		"/private/etc/apache2/users/lehenry.conf",
+		"/Applications/MAMP/bin/upgradeMysql.sh",
+		"/Applications/MAMP/bin/stopMysql.sh",
+		"/Applications/MAMP/bin/repairMysql.sh",
+		"/Applications/MAMP/bin/checkMysql.sh",
+		"/Applications/MAMP/bin/quickCheckMysqlUpgrade.sh",
+		"/Applications/MAMP/bin/phpMyAdmin/config.inc.php",
+		"/Applications/MAMP/conf/apache/original/httpd.conf",
+		"/Users/lehenry/Google Drive/Andrew Solomon/Email Campaigns/RSS_Output_MC_Newsletter_Archive.txt",
+		"/Applications/MAMP/htdocs/index.php",
+		"/Users/lehenry/Library/Application Support/Coda 2/Plug-ins/Emmet.codaplugin/Contents/Resources/snippets.json"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"servoffr",
+			"cocktail",
+			"_www",
+			"lehenry",
+			"Listen",
+			"rewrite",
+			"-proot",
+			"sister",
+			"sis"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"servoffr",
+			"-psisterhal"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "cogproj.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
