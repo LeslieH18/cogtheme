@@ -1,6 +1,6 @@
-# Timber Starter Theme (Tackle Box version)
+# Timber Starter Theme (Tackle Box version) MODIFIED
 
-With comments!
+Original author of this README is laras126.  
 
 ## What's here?
 
